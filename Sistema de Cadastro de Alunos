@@ -1,1 +1,8 @@
-
+count = 0
+while True:
+    s = input()
+    if s == "CDA 1942":
+        break
+    if s:  
+        count += 1
+print(count)
